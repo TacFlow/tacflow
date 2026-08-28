@@ -1,4 +1,4 @@
-﻿<div align="center">
+﻿﻿<div align="center">
   <img src="assets/tacflow-banner.png" alt="TacFlow Banner" width="100%"/>
   <h1>TacFlow</h1>
   <p><strong>Local-First • Deterministic Multi-Agent Swarm Platform • Powered by TAC Language DSL</strong></p>
@@ -47,6 +47,11 @@ curl -fsSL https://github.com/TacFlow/tacflow/releases/latest/download/install.s
 
 Most agent frameworks (AutoGPT, CrewAI, Hermes) rely exclusively on **non-deterministic natural language prompts**. TacFlow introduces a **deterministic compilation layer** through the TAC Language DSL — combining LLM flexibility with the predictability of a traditional compiler.
 
+
+### 🖱️ Zero-Code by Design
+
+TacFlow é uma plataforma **100% visual** para criação multiagentes e automações completas. Sem necessidade de terminal ou escrever qualquer linha de código. Instalação completa facilitada com apenas poucos cliques. Um dashboard nativo mostra tudo o que os agentes estão fazendo, em tempo real. TacFlow entrega uma experiência completa de ponta a ponta, com alta performance e inovação constante.
+
 | Capability | TacFlow | Hermes Agent | CrewAI / AutoGPT |
 |:---|---:|:---:|:---:|
 | **Execution Language** | TAC DSL (Compiled / Typed) | Raw Text Prompts | Python Scripts / Prompts | TypeScript / YAML Config |
@@ -59,6 +64,8 @@ Most agent frameworks (AutoGPT, CrewAI, Hermes) rely exclusively on **non-determ
 | **Edge / IoT Support** | Native (`tacbot-edge` — agente no dispositivo) | SSH / API Only | None | App Companions (Android, iOS, macOS, Win, Linux) |
 | **Deterministic Flows** | ✅ DAG Compilation | ❌ | ❌ | ❌ |
 | **Offline Operation** | ✅ Full | ❌ | ❌ | ✅ Full |
+| **User Interface** | ✅ **Dashboard nativo** (drag & drop, visual, zero-code) | ❌ Terminal-only | ❌ Code-only (Python SDK) | ⚠️ CLI + Config files |
+| **Setup & Onboarding** | ✅ **Zero-code** — instalação com poucos cliques, sem terminal | ❌ Requer terminal + Python | ❌ Requer Python + API keys | ⚠️ Requer CLI + Node.js |
 | **Trust Type Validation** | ✅ Compile-Time | ❌ | ❌ | ❌ |
 
 ---

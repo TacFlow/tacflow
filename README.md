@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   <img src="assets/tacflow-banner.png" alt="TacFlow Banner" width="100%"/>
   <h1>TacFlow</h1>
   <p><strong>Local-First • Deterministic Multi-Agent Swarm Platform • Powered by TAC Language DSL</strong></p>
@@ -49,16 +49,17 @@ Most agent frameworks (AutoGPT, CrewAI, Hermes) rely exclusively on **non-determ
 
 | Capability | TacFlow | Hermes Agent | CrewAI / AutoGPT |
 |:---|---:|:---:|:---:|
-| **Execution Language** | TAC DSL (Compiled / Typed) | Raw Text Prompts | Python Scripts / Prompts |
-| **Architecture** | Local-First (Single Go Binary) | Multi-container / Cloud | Python Runtime Dependent |
-| **Memory System** | **3-Tier** (BM25 + Vector + Graph) | Markdown Files / SQLite | Single Vector Store |
-| **Auditability & Compliance** | AST Hash + Cryptographic Trail | Simple Execution Logs | Varies |
-| **Agent Portability** | Encrypted Package (`.tacagent`) | Not Supported | Not Supported |
-| **Continuous Training** | Auto LoRA Dataset Export | Textual Learning Loop | None |
-| **Edge / IoT Support** | Native (`tacbot-edge`) | SSH / API Only | None |
-| **Deterministic Flows** | ✅ DAG Compilation | ❌ | ❌ |
-| **Offline Operation** | ✅ Full | ❌ | ❌ |
-| **Trust Type Validation** | ✅ Compile-Time | ❌ | ❌ |
+| **Execution Language** | TAC DSL (Compiled / Typed) | Raw Text Prompts | Python Scripts / Prompts | TypeScript / YAML Config |
+| **Architecture** | Local-First (Single Go Binary) | Multi-container / Cloud | Python Runtime Dependent | Local-First (Node.js Runtime) |
+| **Memory System** | **3-Tier** (BM25 + Vector + Graph) | Markdown Files / SQLite | Single Vector Store | 2-Tier (BM25 + Vector, c/ "Dreaming") |
+| **Agent Isolation & Persistence** | ✅ SQLite + Vault criptografado + Workspace por agente | ❌ | ❌ | ⚠️ Workspace por diretório, sem vault |
+| **Auditability & Compliance** | AST Hash + Cryptographic Trail | Simple Execution Logs | Varies | Simple Execution Logs |
+| **Agent Portability** | Encrypted Package (`.tacagent`) | Not Supported | Not Supported | Workspace Directory |
+| **Continuous Training** | Auto LoRA Dataset Export | Textual Learning Loop | None | None |
+| **Edge / IoT Support** | Native (`tacbot-edge` — agente no dispositivo) | SSH / API Only | None | App Companions (Android, iOS, macOS, Win, Linux) |
+| **Deterministic Flows** | ✅ DAG Compilation | ❌ | ❌ | ❌ |
+| **Offline Operation** | ✅ Full | ❌ | ❌ | ✅ Full |
+| **Trust Type Validation** | ✅ Compile-Time | ❌ | ❌ | ❌ |
 
 ---
 

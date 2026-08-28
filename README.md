@@ -1,4 +1,4 @@
-﻿﻿﻿﻿<div align="center">
+﻿﻿﻿﻿﻿<div align="center">
   <img src="assets/tacflow-banner.png" alt="TacFlow Banner" width="100%"/>
   <h1>TacFlow</h1>
   <p><strong>Local-First • Deterministic Multi-Agent Swarm Platform • Powered by TAC Language DSL</strong></p>
@@ -64,8 +64,8 @@ TacFlow is a **100% visual platform** for building multi-agent systems and full 
 | **Edge / IoT Support** | Native (`tacbot-edge` — agente no dispositivo) | SSH / API Only | None | App Companions (Android, iOS, macOS, Win, Linux) |
 | **Deterministic Flows** | ✅ DAG Compilation | ❌ | ❌ | ❌ |
 | **Offline Operation** | ✅ Full | ❌ | ❌ | ✅ Full |
-| **User Interface** | ✅ **Dashboard nativo** (drag & drop, visual, zero-code) | ❌ Terminal-only | ❌ Code-only (Python SDK) | ⚠️ CLI + Config files |
-| **Setup & Onboarding** | ✅ **Zero-code** — instalação com poucos cliques, sem terminal | ❌ Requer terminal + Python | ❌ Requer Python + API keys | ⚠️ Requer CLI + Node.js |
+| **User Interface** | ✅ **Native dashboard** (drag & drop, visual, zero-code) | ❌ Terminal-only | ❌ Code-only (Python SDK) | ⚠️ CLI + Config files |
+| **Setup & Onboarding** | ✅ **Zero-code** — one-click install, no terminal needed | ❌ Requires terminal + Python | ❌ Requires Python + API keys | ⚠️ Requires CLI + Node.js |
 | **Trust Type Validation** | ✅ Compile-Time | ❌ | ❌ | ❌ |
 
 ---

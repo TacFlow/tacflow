@@ -1,0 +1,14 @@
+Copyright (c) 2026 TacFlow Technologies
+
+All Rights Reserved.
+
+This software and its associated documentation files (the "Software") are proprietary
+and confidential. Unauthorized copying, distribution, modification, or use of this
+Software, via any medium, is strictly prohibited without prior written permission
+from TacFlow Technologies.
+
+The TAC Language DSL compiler, located in the `tac-language` repository, is licensed
+separately under the MIT License. Edge SDKs and examples in the `tacbot-edge` and
+`tacflow-examples` repositories are also open source under the MIT License.
+
+For licensing inquiries, contact: licensing@tacflow.ai

@@ -6,7 +6,7 @@ Use this checklist to verify everything is working after the GitHub updates.
 
 ## 🔄 Redirects & Infrastructure (CRITICAL — must not break)
 
-- [ ] `git clone https://github.com/tacflow-ai/tacflow` works
+- [ ] `git clone https://github.com/TacFlow/tacflow` works
 - [ ] `git clone https://github.com/tacflow1-tech/tacflow` redirects to new URL
 - [ ] One-liner installer still works (test in clean environment):
   - Windows: `iwr -useb https://get.tacflow.ai/install.ps1 | iex`
@@ -25,7 +25,7 @@ Use this checklist to verify everything is working after the GitHub updates.
 
 ## 🏷️ Profile & Branding
 
-- [ ] Organization/user name is `tacflow-ai`
+- [ ] Organization/user name is `TacFlow`
 - [ ] Avatar/logo is displayed
 - [ ] Bio describes TacFlow accurately
 - [ ] Website link points to tacflow.ai

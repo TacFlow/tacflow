@@ -149,5 +149,5 @@ The full formal grammar specification is available in the `tac-language` reposit
 
 ---
 
-> **Repository:** [github.com/tacflow-ai/tac-language](https://github.com/tacflow-ai/tac-language)
+> **Repository:** [github.com/TacFlow/tac-language](https://github.com/TacFlow/tac-language)
 > **License:** MIT (Open Source)

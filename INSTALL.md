@@ -60,7 +60,7 @@ system**. Pick your OS below and follow the steps.
    [What the installer sets up](#what-the-installer-sets-up)).
 3. All commands below download signed release assets from the official
    repository:
-   <https://github.com/tacflow1-tech/tacflow/releases/latest>.
+   <https://github.com/TacFlow/tacflow/releases/latest>.
 
 ---
 
@@ -92,7 +92,7 @@ After installation the dashboard is available in your browser at
 Open **Terminal** and run:
 
 ```bash
-curl -fsSL https://github.com/tacflow1-tech/tacflow/releases/latest/download/install_mac.sh | bash
+curl -fsSL https://github.com/TacFlow/tacflow/releases/latest/download/install_mac.sh | bash
 ```
 
 This downloads the correct `TACFLOW Installer.app` for your chip, extracts it to
@@ -101,7 +101,7 @@ setup wizard. Follow the wizard and paste your API key when prompted.
 
 ### Method B — Manual download
 
-1. Go to the [latest release](https://github.com/tacflow1-tech/tacflow/releases/latest).
+1. Go to the [latest release](https://github.com/TacFlow/tacflow/releases/latest).
 2. Download the installer for your chip:
    - Apple Silicon: **`tacflow-installer-darwin-arm64.zip`**
    - Intel: **`tacflow-installer-darwin-amd64.zip`**
@@ -119,7 +119,7 @@ setup wizard. Follow the wizard and paste your API key when prompted.
 Ideal for remote Macs or when you prefer a headless install:
 
 ```bash
-curl -fsSL https://github.com/tacflow1-tech/tacflow/releases/latest/download/install.sh | bash
+curl -fsSL https://github.com/TacFlow/tacflow/releases/latest/download/install.sh | bash
 ```
 
 The terminal installer verifies the download against `SHA256SUMS.txt` before
@@ -129,7 +129,7 @@ running it.
 
 ## Install on Windows (x64)
 
-1. Go to the [latest release](https://github.com/tacflow1-tech/tacflow/releases/latest).
+1. Go to the [latest release](https://github.com/TacFlow/tacflow/releases/latest).
 2. Download **`tacflow-installer-windows-amd64.exe`**.
 3. Double‑click the file to run it.
 4. **Microsoft Defender SmartScreen** may show *"Windows protected your PC"*
@@ -150,7 +150,7 @@ running it.
 Optional — download from PowerShell instead of the browser:
 
 ```powershell
-$u = "https://github.com/tacflow1-tech/tacflow/releases/latest/download/tacflow-installer-windows-amd64.exe"
+$u = "https://github.com/TacFlow/tacflow/releases/latest/download/tacflow-installer-windows-amd64.exe"
 Invoke-WebRequest -Uri $u -OutFile "$env:USERPROFILE\Downloads\tacflow-installer-windows-amd64.exe"
 Start-Process "$env:USERPROFILE\Downloads\tacflow-installer-windows-amd64.exe"
 ```
@@ -167,7 +167,7 @@ Two installers are available: a **graphical wizard** for desktop machines and a
 Requires a graphical session (X11 or Wayland) with OpenGL:
 
 ```bash
-curl -fsSL https://github.com/tacflow1-tech/tacflow/releases/latest/download/install_linux.sh | bash
+curl -fsSL https://github.com/TacFlow/tacflow/releases/latest/download/install_linux.sh | bash
 ```
 
 This installs the `tacflow-installer` binary to `~/.local/bin/` and launches the
@@ -179,7 +179,7 @@ models, speech engines, configuration).
 No display needed — the entire install runs in the terminal:
 
 ```bash
-curl -fsSL https://github.com/tacflow1-tech/tacflow/releases/latest/download/install.sh | bash
+curl -fsSL https://github.com/TacFlow/tacflow/releases/latest/download/install.sh | bash
 ```
 
 **Non‑interactive** (CI, provisioning, cloud servers) — supply the API key and
@@ -187,7 +187,7 @@ accept the terms up front:
 
 ```bash
 TACFLOW_API_KEY=sa_your_key_here TACFLOW_ACCEPT_TERMS=1 \
-  bash <(curl -fsSL https://github.com/tacflow1-tech/tacflow/releases/latest/download/install.sh)
+  bash <(curl -fsSL https://github.com/TacFlow/tacflow/releases/latest/download/install.sh)
 ```
 
 The terminal installer verifies the binary against `SHA256SUMS.txt` before
@@ -233,7 +233,7 @@ download yourself:
 
 ```bash
 # from the folder containing the downloaded asset
-curl -fsSLO https://github.com/tacflow1-tech/tacflow/releases/latest/download/SHA256SUMS.txt
+curl -fsSLO https://github.com/TacFlow/tacflow/releases/latest/download/SHA256SUMS.txt
 shasum -a 256 -c SHA256SUMS.txt 2>/dev/null | grep -i "tacflow-installer"
 # (on Linux you can also use: sha256sum -c SHA256SUMS.txt)
 ```
@@ -311,7 +311,7 @@ Click **More info → Run anyway**. This appears for newly‑published apps.
 You are likely on a headless/minimal system with no display or GL libraries.
 Use the **terminal installer**:
 ```bash
-curl -fsSL https://github.com/tacflow1-tech/tacflow/releases/latest/download/install.sh | bash
+curl -fsSL https://github.com/TacFlow/tacflow/releases/latest/download/install.sh | bash
 ```
 
 **A port is already in use (`4222`, `8088`, or `8999`)**
@@ -338,8 +338,8 @@ specific build or an internal validation build, point the installer at another
 release base with the `TACFLOW_RELEASE_BASE` environment variable:
 
 ```bash
-TACFLOW_RELEASE_BASE=https://github.com/tacflow1-tech/tacflow/releases/download/<tag> \
-  bash <(curl -fsSL https://github.com/tacflow1-tech/tacflow/releases/download/<tag>/install.sh)
+TACFLOW_RELEASE_BASE=https://github.com/TacFlow/tacflow/releases/download/<tag> \
+  bash <(curl -fsSL https://github.com/TacFlow/tacflow/releases/download/<tag>/install.sh)
 ```
 
 Replace `<tag>` with the release tag you want to install.
@@ -348,10 +348,10 @@ Replace `<tag>` with the release tag you want to install.
 
 ## Getting help
 
-- **Releases & downloads:** <https://github.com/tacflow1-tech/tacflow/releases>
+- **Releases & downloads:** <https://github.com/TacFlow/tacflow/releases>
 - **Account dashboard:** <https://app.xtended.one>
 - **Website:** <https://xtended.one>
 
 If you hit a problem not covered here, open an issue on the
-[repository](https://github.com/tacflow1-tech/tacflow/issues) with your OS,
+[repository](https://github.com/TacFlow/tacflow/issues) with your OS,
 architecture (`uname -m` / Windows x64) and the output of the installer.

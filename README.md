@@ -3,14 +3,14 @@
   <h1>TacFlow</h1>
   <p><strong>Local-First • Deterministic Multi-Agent Swarm Platform • Powered by TAC Language DSL</strong></p>
 
-  [![Release](https://img.shields.io/github/v/release/tacflow-ai/tacflow?style=flat-square&color=0052FF)](https://github.com/tacflow-ai/tacflow/releases)
+  [![Release](https://img.shields.io/github/v/release/TacFlow/tacflow?style=flat-square&color=0052FF)](https://github.com/TacFlow/tacflow/releases)
   [![Go Version](https://img.shields.io/badge/go-1.26+-00ADD8?style=flat-square&logo=go)](https://go.dev)
   [![License](https://img.shields.io/badge/license-Proprietary-blueviolet?style=flat-square)](LICENSE)
-  [![TAC Language](https://img.shields.io/badge/TAC%20Language-MIT-22AA55?style=flat-square)](https://github.com/tacflow-ai/tac-language)
+  [![TAC Language](https://img.shields.io/badge/TAC%20Language-MIT-22AA55?style=flat-square)](https://github.com/TacFlow/tac-language)
   [![Discord](https://img.shields.io/badge/community-Discord-5865F2?style=flat-square&logo=discord)](https://discord.gg/tacflow)
-  [![Windows](https://img.shields.io/badge/Windows-✓-0078D6?style=flat-square&logo=windows)](https://github.com/tacflow-ai/tacflow/releases)
-  [![Linux](https://img.shields.io/badge/Linux-✓-E95420?style=flat-square&logo=linux)](https://github.com/tacflow-ai/tacflow/releases)
-  [![macOS](https://img.shields.io/badge/macOS-✓-000000?style=flat-square&logo=apple)](https://github.com/tacflow-ai/tacflow/releases)
+  [![Windows](https://img.shields.io/badge/Windows-✓-0078D6?style=flat-square&logo=windows)](https://github.com/TacFlow/tacflow/releases)
+  [![Linux](https://img.shields.io/badge/Linux-✓-E95420?style=flat-square&logo=linux)](https://github.com/TacFlow/tacflow/releases)
+  [![macOS](https://img.shields.io/badge/macOS-✓-000000?style=flat-square&logo=apple)](https://github.com/TacFlow/tacflow/releases)
 
   <br/>
   <a href="#-quick-install">⚡ Quick Install</a> •
@@ -25,14 +25,16 @@
 
 ## ⚡ Quick Install
 
+> 📖 For a full step-by-step guide, see [INSTALL.md](INSTALL.md).
+
 ### Windows (PowerShell — Admin)
 ```powershell
-iwr -useb https://get.tacflow.ai/install.ps1 | iex
+iwr -useb https://github.com/TacFlow/tacflow/releases/latest/download/install.ps1 | iex
 ```
 
 ### Linux / macOS
 ```bash
-curl -fsSL https://get.tacflow.ai/install.sh | bash
+curl -fsSL https://github.com/TacFlow/tacflow/releases/latest/download/install.sh | bash
 ```
 
 > ✅ One binary, zero dependencies. Installs the full TacFlow Engine, Dashboard, NATS broker, and CLI in under 30 seconds.
@@ -107,7 +109,7 @@ A domain-specific language designed **from the ground up for autonomous agents**
 - **Canonical Round-Trip Formatting:** Every `.tac` file can be formatted, parsed, and re-emitted identically — full auditability
 - **Auto LoRA Dataset Generation:** Every execution automatically generates structured training records for fine-tuning
 
-> 📖 [Full TAC Language Documentation](https://github.com/tacflow-ai/tac-language)
+> 📖 [Full TAC Language Documentation](https://github.com/TacFlow/tac-language)
 
 ### 2. 3-Tier Native Memory
 
@@ -163,8 +165,8 @@ TacFlow natively orchestrates **multi-agent swarms** with:
 ## 📄 License
 
 - **TacFlow Engine & Platform:** Proprietary — All Rights Reserved. See [LICENSE](LICENSE).
-- **TAC Language DSL Compiler:** Open Source — [MIT License](https://github.com/tacflow-ai/tac-language).
-- **TacBot Edge SDK & Examples:** Open Source — [MIT License](https://github.com/tacflow-ai/tacbot-edge).
+- **TAC Language DSL Compiler:** Open Source — [MIT License](https://github.com/TacFlow/tac-language).
+- **TacBot Edge SDK & Examples:** Open Source — [MIT License](https://github.com/TacFlow/tacbot-edge).
 
 ---
 

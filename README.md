@@ -53,7 +53,7 @@ Most agent frameworks (AutoGPT, CrewAI, Hermes) rely exclusively on **non-determ
 TacFlow is a **100% visual platform** for building multi-agent systems and full automations. No terminal required — no need to write a single line of code. Complete setup in just a few clicks. A native dashboard shows everything your agents are doing, in real time. TacFlow delivers a complete end-to-end experience with high performance and constant innovation.
 
 | Capability | TacFlow | Hermes Agent | CrewAI / AutoGPT | OpenClaw |
-|:---|---:|:---:|:---:|:---:|
+|:---|---:|---:|---:|---:|
 | **Execution Language** | TAC DSL (Compiled / Typed) | Raw Text Prompts | Python Scripts / Prompts | TypeScript / YAML Config |
 | **Architecture** | Local-First (Single Go Binary) | Multi-container / Cloud | Python Runtime Dependent | Local-First (Node.js Runtime) |
 | **Memory System** | **3-Tier** (BM25 + Vector + Graph) | Markdown Files / SQLite | Single Vector Store | 2-Tier (BM25 + Vector, c/ "Dreaming") |
